@@ -1,3 +1,10 @@
 page-home {
-
+  .holder{
+    height: calc(100%);
+    min-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

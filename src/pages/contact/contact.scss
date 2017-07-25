@@ -1,3 +1,43 @@
 page-contact {
+  svg#menu{
+    width: calc(50%);
+    height: calc(50%);
+  }
+   #symbolsContainer {
+    height: 200px;
+    width: 200px;
+  }
 
+  #menu {
+    display: block;
+    margin: 0 auto;
+    overflow: visible;
+  }
+
+  .item .sector {
+    transition: all .1s linear;
+    fill: rgba(255, 255, 255, .8);
+    stroke: #ddd;
+  }
+
+  .item:hover .sector {
+    fill: #333;
+  }
+
+  .menu-trigger {
+    fill: deepPink;
+    pointer-events: auto;
+  }
+
+  .menu-trigger:hover {
+    cursor: pointer;
+  }
+
+  .item use {
+    fill: #333;
+  }
+
+  .item:hover use {
+    fill: #fff;
+  }
 }
